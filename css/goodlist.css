@@ -1,0 +1,81 @@
+/*top*/
+a{cursor: pointer;}
+.top{width: 100%;background: #da0148;}
+.topic{display: block;margin: 0 auto;}
+.top1{width: 1190px;margin: 0 auto;overflow: hidden;padding: 20px 0;}
+.top1 .img{margin-left: 30px;}
+.top1 .img1{margin: 0px 180px 0px 30px;}
+.top1 .run{display: inline-block;background: url(../img/index/ind_top_bq.gif) no-repeat;width: 270px;height: 66px;}
+.top1 .form1{overflow: hidden;display: inline-block;padding: 5px 0 5px 60px;}
+.top1 .Tput1{height: 26px;width: 215px;float: right;display: inline-block;border: 2px solid #008000;}
+.top1 .Tput2{margin-right: 30px;height: 32px;width: 75px;background: #90c31f;border: 0;float: right;color: #FFFFFF;font-size: 15px ;}
+.top1 .Ttxt{text-align: right;padding-right: 80px;line-height: 35px;}
+.top1 .Ttxt a{color: #000000;}
+.top1 .Ttxt a:hover{color:red}
+/*nav*/
+.nav{width: 100%;background: #90c31f;height: 32px;}
+.nav .Inav{width: 1190px;margin: 0 auto;}
+.nav .nav1{width: 950px;margin: 0 auto;float: left;overflow: hidden;}
+.nav .nav1 .nav1li{float: left;line-height: 32px;padding: 0 32px;font-size: 14px;}
+.nav .nav1 .nav1li a{color: #FFFFFF;display: inline-block;}
+.nav .nav1 .nav1li:hover{background: #77b001;}
+/*two nav*/
+.nav .Nall{position: relative;float: left;line-height: 32px;padding: 0 15px;width: 180px;text-align: center;background: green;color: #FFFFFF;}
+.nav .Nall .Inavo{position: absolute;left: 0px;top: 33px;z-index: 50;text-align: left;background: #FFFFFF;width: 170px;padding: 10px 20px;}
+.nav .Nall .Inavo .Inavoli{border-bottom: 1px dotted #C3C3C3;}
+.nav .Nall .Inavo span{display: inline-block;height: 31px;line-height: 31px;margin: 0 10px 0  20px;}
+.nav .Nall .Inavo .bg1{display: inline-block;width: 23px;height: 29px;background: url(../img/regist/tubiao.png) no-repeat -5px -410px;}
+.Inavo .bg2{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -447px;}
+.Inavo .bg3{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -490px;}
+.Inavo .bg4{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -525px;}
+.Inavo .bg5{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -560px;}
+.Inavo .bg6{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -595px;}
+.Inavo .bg7{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -635px;}
+/*three nav*/
+.nav .Nall .Inavo .Inavt{padding: 20px 0;position: absolute;left: 210px;top: 0px;width: 515px;height: 260px;border: 1px solid #008000;background: #FFFFFF;}
+.nav .Nall .Inavo .Inavt .Inavt1 li{display: inline-block;padding: 10px 0px;font-size: 15px;line-height: 30px;}
+.nav .Nall .Inavo .Inavt .Inavt1 li a{border-left: 2px solid #C6C6C6;}
+.nav .Nall .Inavo .Inavt .Inavt1 .ayabse{color: #000000;display: inline-block;width:80px;height: 30px;text-align: right;}
+/*lunbo*/
+.ck-slide ul { margin: 0; padding: 0; list-style-type: none;}
+.ck-slide { position: relative; overflow: hidden; width:1190px;height:500px;margin: 0 auto;}
+.ck-slide ul.ck-slide-wrapper { position: absolute; top: 0; left: -364px; z-index: 1; margin: 0; padding: 0;}
+.ck-slide ul.ck-slide-wrapper li { position: absolute;}
+.ck-slide ul.ck-slide-wrapper li img{display: block;width: 1980px;margin: 0 auto;}
+.ck-slide .ck-prev, .ck-slide .ck-next { position: absolute; top: 50%; z-index: 2; width: 35px; height: 70px; margin-top: -35px; border-radius: 3px; opacity: .15; background: red; text-indent: -9999px; background-repeat: no-repeat; transition: opacity .2s linear 0s;}
+.ck-slide .ck-prev { left: 5px; background: url(../lib/jquery-slide/images/arrow-left.png) #000 50% no-repeat;}
+.ck-slide .ck-next { right: 5px; background: url(../lib/jquery-slide/images/arrow-right.png) #000 50% no-repeat;}
+.ck-slidebox { position: absolute; left: 50%; bottom: 12px; z-index: 30;}
+.ck-slidebox ul { height: 20px; padding: 0 4px; border-radius: 8px; background: rgba(0,0,0,0.5);}
+.ck-slidebox ul li { float: left; height: 12px; margin: 4px 4px;}
+.ck-slidebox ul li em { display: block; width: 12px; height: 12px; border-radius: 100%; background-color: #fff; text-indent: -9999px; cursor: pointer;}
+.ck-slidebox ul li.current em { background-color: #fe6500;}
+.ck-slidebox ul li em:hover { background-color: #fe6500;}
+/*main*/
+.main{width: 1190px;overflow: hidden;margin: 0 auto;}
+.main .m1{overflow: hidden;}
+.main .m1 .m1img{display: inline-block;float: left;margin: 10px 11px 10px 0;}
+.main .bg{width: 1190px;margin: 0 auto;height: 120px;background: url(../img/goodlist/banner2.png) no-repeat 0 0;margin-top: 50px;}
+.main .m2{overflow: hidden;padding: 10px 10px;}
+.main .m2 dd{text-align: center;line-height: 20px;}
+.main .m2 dt{padding-bottom: 20px;}
+.main .m2 .m2dl{float: left;border: 1px solid #C3C3C3;position: relative;}
+.main .m2 .m2dl:hover{box-shadow: 0 0 5px #888888;}
+.main .m2 .madt{position: absolute;top: 0;left: 0;}
+.main .m2 .m2dd1{color: red;}
+.main .m2 .m2dd3 .pr{font-size: 30px;line-height: 50px;}
+.main .m3{overflow: hidden;}
+.main .m3 .m3dl{float: left;margin: 30px 7px 30px 0px;position: relative;width: 290px;height: 580px;}
+.main .m3 .m3dt{position: absolute;top: 0;left: 0;}
+.main .m3 .m3dl:hover{box-shadow: 0 0 10px #000;}
+.main .m3 dd{text-align: center;line-height: 20px;}
+.main .m3 .m3dd1{position: absolute;top: 461px;left: 70px;}
+.main .m3 .m3dd2{color: red;position: absolute;top: 491px;left: 100px;}
+.main .m3 .m3dd3{font-size: 30px;line-height: 50px;position: absolute;top: 520px;left: 100px;}
+
+
+
+
+
+
+

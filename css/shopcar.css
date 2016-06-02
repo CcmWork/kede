@@ -1,0 +1,23 @@
+#footer{margin-top: 120px;}
+
+.logo{width: 1190px;margin: 0 auto;overflow: hidden;padding: 50px 0;}
+.logo img{display: inline-block;float: left;padding-left: 100px;}
+.logo div{padding-left: 20px;display: inline-block;float: left;font-size: 20px;padding-top: 10px;}
+.shop{width: 1190px;margin: 0px auto;}
+/*null*/
+.shop .null{}
+.shop .null{width: 989px;height: 190px;border: 1px solid #C0C0C0;margin: 0 auto;}
+.shop .null i{float: left;display: inline-block;background: url(../img/index/tubiao.png) no-repeat -340px -355px;width: 43px;height: 40px;}
+.shop .null .null1{float: left;line-height: 20px;width: 400px;padding-left: 300px;padding-top: 50px;}
+/*thing*/
+.shop .shop1{width: 989px;height: 230px;margin: 0 auto;}
+.shop .shop1 .shop1nav{width: 989px;height: 35px;border: 1px solid #C6C6C6;background: #C0C0C0;line-height: 35px;}
+.shop .shop1 .shop1nav li{float: left;text-align: center;}
+.shop .shop1 .shop1nav .li1{width: 420px;}
+.shop .shop1 .shop1nav .li2{width: 130px;}
+.shop .shop1 .shop1cont{overflow: hidden;height: 190px;width: 989px;border: 1px solid #C6C6C6;}
+.shop .shop1 .shop1cont li{float: left;text-align: center;}
+.shop .shop1 .shop1cont .li3{width: 420px;height: 190px;line-height: 190px;}
+.shop .shop1 .shop1cont .li4{width: 130px;height: 190px;line-height: 190px;}
+.imgx{width: 50px;height: 50px;}
+

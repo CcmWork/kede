@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/common/reset.css" />
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/shopcar.css" />
+		
+	</head>
+	<body>
+		<!--header-->
+		<div id="header"></div>
+		<!--main -->
+		<div class="logo">
+			<img src="../img/index/logo.png" />
+			<div class="txt">我的购物车</div>
+		</div>
+		<div class="shop">
+			
+			<!--thing-->
+			<div class="shop1">
+				<ul class="shop1nav">
+					<li class="li1">商品</li>
+					<li class="li2">数量</li>
+					<li class="li2">单价(元)</li>
+					<li class="li2">小计(元)</li>
+					<li class="li2">操作(元)</li>
+				</ul>
+				<ul class="shop1cont" style="display: none;">
+					<li id="shopname" class="li3"><li>
+					<li id="num" class="li4"></li>
+					<li id="oneprice" class="li4"></li>
+					<li id="total" class="li4"></li>
+					<li id="op" class="li4">
+						<div class="delete"> 删除</div>
+					</li>
+				</ul>
+				<!--null-->
+				<div class="null" >
+					<div class="null1">
+						<i></i>
+						<p>您的购物车是空的哦，~~~~去挑选您喜欢的商品吧！</p>
+						<a href="index.html">去选购&gt;&gt;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div id="footer"></div>
+		<script src="../lib/jquery-1.12.3.min.js"></script>
+		<script src="../js/common/common.js"></script>
+		<script src="../lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			common("common/header.html", "#header");
+			common("common/footer.html", "#footer");
+		</script>
+		
+		<script src="../js/shopcar.js"></script>
+	</body>
+</html>

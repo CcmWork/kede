@@ -1,0 +1,137 @@
+/*top*/
+a{cursor: pointer;}
+.top{width: 100%;background: #da0148;}
+.topic{display: block;margin: 0 auto;}
+.top1{width: 1190px;margin: 0 auto;overflow: hidden;padding: 20px 0;}
+.top1 .img{margin-left: 30px;}
+.top1 .img1{margin: 0px 180px 0px 30px;}
+.top1 .run{display: inline-block;background: url(../img/index/ind_top_bq.gif) no-repeat;width: 270px;height: 66px;}
+.top1 .form1{overflow: hidden;display: inline-block;padding: 5px 0 5px 60px;}
+.top1 .Tput1{height: 26px;width: 215px;float: right;display: inline-block;}
+.top1 .Tput2{margin-right: 30px;height: 31px;width: 75px;background: #90c31f;border: 0;float: right;color: #FFFFFF;font-size: 15px ;}
+.top1 .Ttxt{text-align: right;padding-right: 80px;line-height: 35px;}
+.top1 .Ttxt a{color: #000000;}
+.top1 .Ttxt a:hover{color:red}
+/*nav*/
+.nav{width: 100%;background: #90c31f;height: 32px;}
+.nav .Inav{width: 1190px;margin: 0 auto;}
+.nav .nav1{width: 950px;margin: 0 auto;float: left;overflow: hidden;}
+.nav .nav1 .nav1li{float: left;line-height: 32px;padding: 0 32px;font-size: 14px;}
+.nav .nav1 .nav1li a{color: #FFFFFF;display: inline-block;}
+.nav .nav1 .nav1li:hover{background: #77b001;}
+/*two nav*/
+.nav .Nall{position: relative;float: left;line-height: 32px;padding: 0 15px;width: 180px;text-align: center;background: green;color: #FFFFFF;}
+.nav .Nall .Inavo{position: absolute;left: 0px;top: 33px;z-index: 50;text-align: left;background: #FFFFFF;width: 170px;padding: 10px 20px;}
+.nav .Nall .Inavo .Inavoli{border-bottom: 1px dotted #C3C3C3;}
+.nav .Nall .Inavo span{display: inline-block;height: 31px;line-height: 31px;margin: 0 10px 0  20px;}
+.nav .Nall .Inavo .bg1{display: inline-block;width: 23px;height: 29px;background: url(../img/regist/tubiao.png) no-repeat -5px -410px;}
+.Inavo .bg2{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -447px;}
+.Inavo .bg3{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -490px;}
+.Inavo .bg4{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -525px;}
+.Inavo .bg5{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -560px;}
+.Inavo .bg6{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -595px;}
+.Inavo .bg7{display: inline-block;width: 23px;height: 25px;background: url(../img/regist/tubiao.png) no-repeat -5px -635px;}
+/*three nav*/
+.nav .Nall .Inavo .Inavt{padding: 20px 0;position: absolute;left: 210px;top: 0px;width: 515px;height: 260px;border: 1px solid #008000;background: #FFFFFF;}
+
+.nav .Nall .Inavo .Inavt .Inavt1 li{display: inline-block;padding: 10px 0px;font-size: 15px;line-height: 30px;}
+.nav .Nall .Inavo .Inavt .Inavt1 li a{border-left: 2px solid #C6C6C6;}
+.nav .Nall .Inavo .Inavt .Inavt1 .ayabse{color: #000000;display: inline-block;width:80px;height: 30px;text-align: right;}
+/*lunbo*/
+.lunbo{width: 100%;height: 320px;position: relative;}
+.lunbo .pic{width: 760px;height: 320px;position: relative;margin: 0px auto;overflow: hidden;}
+.lunbo .pic ul li{width: 760px;height: 320px;overflow: hidden;}
+.lunbo .pic .text{position: absolute;left: -760px;top: 0;}
+.lunbo .Lnav{position: absolute;left: 550px;top: 280px;}
+.lunbo .Lnav ul li{position: relative;left: 10px;top: 0;width: 20px;height: 20px;border: 1px solid #FFFFFF;margin-right: 10px;float: left;}
+.hover1{background: #FFFFFF;}
+/*main1*/
+#main{width: 1190px;margin: 0 auto;}
+#main .main1{overflow: hidden;}
+#main .main1 h3{font-size: 15px;line-height: 25px;}
+#main .main1 .hot{border: 1px solid #C6C6C6;width: 190px;height: 141px;padding: 5px 5px;background: #C3C3C3;float: left;}
+#main .main1 .hot p{margin-top: 10px;text-align: center;width: 55px;height: 20px;display: inline-block;background: #FFFFFF;}
+#main .main1 .hot p a{color: #000000;}
+#main .main1 .m1pic{float: left;margin: 10px 5px 0 5px;}
+#main .main1 .m1r{float: right;width: 190px;height: 141px;border: 1px solid #C6C6C6;padding-bottom: 10px;}
+#main .main1 .m1r .m1rtxt p{display: inline-block;line-height: 30px;text-align: center;font-size: 15px;font-weight: 600;width: 95px;}
+#main .main1 .m1r .tit2{background: #C6C6C6;}
+#main .main1 .m1r .m1rp a{display: block;line-height: 22px;color: #000000;text-align: center;}
+#main .main1 .m1r .m1rp{display: none;}
+#main .main1 .m1r .m1rp1 a{display: block;line-height: 22px;color: #000000;text-align: center;}
+/*main2*/
+.main2{border: 1px solid #CCCCCC;margin: 10px 0 20px 0;overflow: hidden;}
+.main2 .m2bg{float: left;}
+.main2 .m2bg .m2bg1{background: url(../img/index/icon3.gif) no-repeat 0 0;width: 210px;height: 90px;}
+.main2 .m2bg .m2bg2{background: url(../img/index/icon3.gif) no-repeat 0 -90px;width: 210px;height: 90px;}
+.main2 .m2img{float: right;}
+
+.main2 .m2img .m2img1 .m2imgx{text-align: center;float: left;width: 150px;height: 140px;padding-right:35px;}
+.main2 .m2img .m2img1 .m2img1a{display: block;width: 120px;height: 120px;}
+.main2 .m2img .m2img2{display: none;}
+.main2 .m2img .m2img2 .m2imgx{text-align: center;float: left;width: 150px;height: 140px;padding-right:35px;}
+.main2 .m2img .m2img2 .m2img2a{display: block;width: 120px;height: 120px;}
+/*main3*/
+.main3 .main3louti .louti{width: 1190px;margin: 50px 0;}
+.main3 .main3louti .louti .louti1ma{overflow: hidden;}
+.main3 .main3louti .louti .louti1ma li{float: left;line-height: 30px;}
+.main3 .main3louti .louti .L1y{font-size: 20px;color: #1098EC;line-height: 22px;width: 230px;}
+.main3 .main3louti .louti .L1y span{display: inline-block;padding: 0 5px;}
+.main3 .main3louti .louti .L1J{width: 550px;}
+.main3 .main3louti .louti .louti1mb{overflow: hidden;}
+.main3 .main3louti .louti .louti1mbr{float: left;}
+.main3 .main3louti .louti .louti1mbr .louti1mbrdown{height: 313px;width: 208px;border: 1px solid #CCCCCC;}
+.main3 .main3louti .louti .louti1mbr .louti1mbrdown .txt{background: #f6f6f6;text-align: center;font-size: 15px;line-height: 40px;}
+.main3 .main3louti .louti .louti1mbr .louti1mbrdown .a1{float: left;padding-left: 10px;}
+.main3 .main3louti .louti .louti1mbr .louti1mbrdown .a2{width: 90px;height: 48px;line-height: 15px;padding: 0px 10px;float: left;}
+.main3 .main3louti .louti .louti1mbr .louti1mbrdown .a2 .bg{background: url(../img/index/tubiao.png) no-repeat -368px -52px;width: 80px;height: 18px;}
+.main3 .main3louti .louti .louti1mbr .louti1mbrdown li{overflow: hidden;padding: 11px 10px;position: relative;background: #f6f6f6}
+.main3 .main3louti .louti .louti1mbr .louti1mbrdown span{display: inline-block;height: 32px;width: 29px;background: #f6f6f6 url(../img/index/f_hot_bg.png) no-repeat 0 0; position: absolute;left: 20px;top: 0;}
+.main3 .main3louti .louti .louti1mbl{border-bottom: 1px solid #C6C6C6;float: right;border-top: 2px solid #1098EC;width: 970px;}
+.main3 .main3louti .louti .louti1mbl dl{float: left;padding:  5px;}
+.louti1mbl .ck-slide{float: left;}
+/*插件*/
+.louti1mbr .ck-slide ul { margin: 0; padding: 0; list-style-type: none;}
+.louti1mbr .ck-slide { position: relative; overflow: hidden; width:218px;height:320px;}
+.louti1mbr .ck-slide ul.ck-slide-wrapper { position: absolute; top: 0; left: 0; z-index: 1; margin: 0; padding: 0;}
+.louti1mbr .ck-slide ul.ck-slide-wrapper li { position: absolute;}
+.louti1mbr .ck-slide .ck-prev, .ck-slide .ck-next { position: absolute; top: 50%; z-index: 2; width: 35px; height: 70px; margin-top: -35px; border-radius: 3px; opacity: .15; background: red; text-indent: -9999px; background-repeat: no-repeat; transition: opacity .2s linear 0s;}
+.louti1mbr .ck-slide .ck-prev { left: 5px; background: url(../images/arrow-left.png) #000 50% no-repeat;}
+.louti1mbr .ck-slide .ck-next { right: 5px; background: url(../images/arrow-right.png) #000 50% no-repeat;}
+.louti1mbr .ck-slidebox { position: absolute; left: 50%; bottom: 12px; z-index: 30;}
+.louti1mbr .ck-slidebox ul { height: 20px; padding: 0 4px; border-radius: 8px; background: rgba(0,0,0,0.5);}
+.louti1mbr .ck-slidebox ul li { float: left; height: 12px; margin: 4px 4px;}
+.louti1mbr .ck-slidebox ul li em { display: block; width: 12px; height: 12px; border-radius: 100%; background-color: #fff; text-indent: -9999px; cursor: pointer;}
+.louti1mbr .ck-slidebox ul li.current em { background-color: #fe6500;}
+.louti1mbr .ck-slidebox ul li em:hover { background-color: #fe6500;}
+/*插件*/
+.louti1mbl .ck-slide ul { margin: 0; padding: 0; list-style-type: none;}
+.louti1mbl .ck-slide { position: relative; overflow: hidden; width:492px;height:240px;}
+.louti1mbl .ck-slide ul.ck-slide-wrapper { position: absolute; top: 0; left: 0; z-index: 1; margin: 0; padding: 0;}
+.louti1mbl .ck-slide ul.ck-slide-wrapper li { position: absolute;}
+.louti1mbl .ck-slide .ck-prev, .ck-slide .ck-next { position: absolute; top: 50%; z-index: 2; width: 35px; height: 70px; margin-top: -35px; border-radius: 3px; opacity: .15; background: red; text-indent: -9999px; background-repeat: no-repeat; transition: opacity .2s linear 0s;}
+.louti1mbl .ck-slide .ck-prev { left: 5px; background: url(../images/arrow-left.png) #000 50% no-repeat;}
+.louti1mbl .ck-slide .ck-next { right: 5px; background: url(../images/arrow-right.png) #000 50% no-repeat;}
+.louti1mbl .ck-slidebox { position: absolute; left: 50%; bottom: 12px; z-index: 30;}
+.louti1mbl .ck-slidebox ul { height: 20px; padding: 0 4px; border-radius: 8px; background: rgba(0,0,0,0.5);}
+.louti1mbl .ck-slidebox ul li { float: left; height: 12px; margin: 4px 4px;}
+.louti1mbl .ck-slidebox ul li em { display: block; width: 12px; height: 12px; border-radius: 100%; background-color: #fff; text-indent: -9999px; cursor: pointer;}
+.louti1mbl .ck-slidebox ul li.current em { background-color: #fe6500;}
+.louti1mbl .ck-slidebox ul li em:hover { background-color: #fe6500;}
+/*楼梯nav*/
+.main3 .loutiNav{z-index:1000;position: fixed;top: 200px;left: 20px;display: none;}
+.main3 .loutiNav ul li{position: relative;width: 30px;height: 30px;border: 1px solid #000000;text-align: center;line-height: 30px;}
+.main3 .loutiNav ul li span{width: 30px;height: 30px;position: absolute;top: 0;left: 0;display: none;color: #FFFFFF;background: #008000;}
+.main3 .loutiNav ul .last{background: #008000;color: #FFFFFF;}
+.main3 .loutiNav ul li:hover{cursor: pointer;}
+.main3 .loutiNav ul li span.active{display: block;background: #009999;color: #8B0000;}
+.main3 .loutiNav ul li:hover span.active{cursor: pointer;display: block;color: #fff;background: darkred;}
+.main3 .loutiNav ul li:hover span{display: block;background: darkred;color: #fff;}
+
+
+
+
+
+
+
+

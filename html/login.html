@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/common/reset.css" />
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/login.css" />
+
+	</head>
+
+	<body>
+		<!--header-->
+		<div id="header">
+		</div>
+		<!--logo -->
+		<div id="logo">
+			<a href="index.html"><img src="../img/regist/logo.png" /></a>
+			<h2>欢迎登录</h2>
+		</div>
+		<!--main-->
+		<div id="main">
+			<p class="text">我是新用户？<a href="regist.html">免费注册&gt;</a></p>
+			<div class="main">
+				<div class="formx">
+					<form id="demoForm">
+						<dl class="dl">
+							<dt>用户名：</dt>
+							<dd><input  id="username" type="text" name="username" placeholder="用户名/邮箱/手机"/></dd>
+						</dl>
+						<dl class="dl">
+							<dt>密码：</dt>
+							<dd><input id="password" name="password" type="password" /></dd>
+						</dl>
+						<span><input type="checkbox" />记住账户 <input type="checkbox" />自动登录</span><span>忘记密码？</span>
+						<dl  class="dl1" >
+							<dt></dt>
+							<dd><input id="check" class="box" type="submit" value="登录" /></dd>
+						</dl>
+						
+					</form>
+				</div>
+				<div class="mainR">
+					<a href="index.html"><img src="../img/regist/login.jpg" /></a>
+				</div>
+
+			</div>
+		</div>
+		<!--
+        	footer
+        -->
+		<div id="footer">
+
+		</div>
+		<script src="../lib/jquery-1.12.3.min.js"></script>
+		<script src="../js/common/common.js"></script>
+		<script src="../lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/validation/jQuery Validation/js/jquery.validate-1.13.1.js"></script>
+		<script type="text/javascript">
+			common("common/header.html", "#header")
+			common("common/footer.html", "#footer")
+		</script>
+		<script src="../js/login.js"></script>
+	</body>
+
+</html>

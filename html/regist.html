@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/common/reset.css"/>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/regist.css"/>
+		
+	</head>
+	<body>
+		<!--header-->
+		<div id="header">	
+		</div>
+		<!--logo -->
+		<div id="logo">
+			<a href="index.html"><img src="../img/regist/logo.png" /></a>
+			<h2>欢迎注册</h2>
+		</div>
+		<!--main-->
+		<div id="main">
+			<p class="text">我已经注册，<a href="login.html">立即登录&gt;</a></p>
+			<div class="main">
+				<div class="formx">
+					<form id="demoForm">
+						<dl class="dl">
+							<dt><em>*</em>用户名：</dt>
+							<dd><input  id="username" type="text" name="username" placeholder="用户名/邮箱/手机"/></dd>
+						</dl>
+						<dl class="dl">
+							<dt><em>*</em>设置密码：</dt>
+							<dd><input id="password" name="password" type="password" /></dd>
+						</dl>
+						<dl class="dl">
+							<dt><em>*</em>确认密码：</dt>
+							<dd><input id="confirm-password" name="confirm-password" type="password" /></dd>
+						</dl>
+						<dl >
+							<dt><em>*</em>解锁验证：</dt>
+							<dd class="slide"><p>请按住滑块，拖动到最右边</p><span class="bg"></span><div id="slidebox">&gt&gt</div></dd>
+							
+						</dl>
+						
+						<dl  class="dl1" >
+							<dt></dt>
+							<dd><input id="check" class="box" type="button" value="提交注册" /></dd>
+						</dl>
+						<dl style="margin-top: 20px;">
+							<dt></dt>
+							<dd><input class="check" type="checkbox" checked="checked" /><span>我已阅读并同意</span><a href="#">《可得用户注册协议》</a></dd>
+						</dl>
+					</form>
+				</div>
+				<div class="mainR">
+					<a href="index.html"><img src="../img/regist/login.jpg"/></a>
+				</div>
+				
+			</div>
+		</div>
+		<!--
+        	footer
+        -->
+        <div id="footer">
+        
+        </div>
+		<script src="../lib/jquery-1.12.3.min.js"></script>
+		<script src="../lib/jquery.cookie.js"  charset="utf-8"></script>
+		<script src="../js/common/common.js"></script>
+		<script src="../lib/validation/jQuery Validation/js/jquery.validate-1.13.1.js"></script>
+		<script type="text/javascript">
+			common("common/header.html","#header")
+			common("common/footer.html","#footer")
+		</script>
+		<script src="../js/regist.js"></script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+/*logo*/
+#logo{padding-left: 200px;padding-top: 70px;overflow: hidden;background: #f2f2f2;}
+#logo a{display: block;float:left ;}
+#logo h2{float: left;padding-left: 20px;padding-top:30px;font-size: 16px;font-family: "微软雅黑";}
+/*main*/
+#main{width: 100%;background: #f2f2f2;}
+#main .text{padding-left: 998px;line-height: 30px;padding-top: 30px;}
+#main .text a{color: green ;}
+#main .text a:hover{color: red;}
+#main .main{width: 990px;height: 380px;background: #fff;margin: 0px auto;border: 3px solid #f2f2f2;overflow: hidden;}
+#main .main .formx{width: 430px;float: left;padding-top: 35px;}
+#main .main .formx em{color: red;}
+#main .main .formx dl{overflow: hidden;width: 340px;margin: 0 auto;}
+#main .main .formx .dl{height: 60px;}
+#main .main .formx .dl1{padding-top: 20px;}
+#main .main .formx dt{width: 95px;text-align: right;float:left ;line-height: 30px;font-size: 14px;}
+#main .main .formx dd input{width: 238px;height: 26px;}
+#main .main .formx dd {float: right;overflow: hidden;}
+#main .main .formx .yanzhma{width: 242px;height: 30px;}
+#main .main .formx .slide{width: 238px;height: 30px;border: 2px solid #E5E5E5;position: relative;}
+#main .main .formx .slide div{z-index:1000;background: #00CC00;height: 26px;width: 30px;text-align: center;line-height: 26px;border: 2px solid #E5E5E5;position:absolute;left:0;top:0;}
+#main .main .formx .slide p{line-height: 30px;text-align: center;background: #F2F2F2;height: 30px;width: 200px;;position:absolute;left:37px;top:0;}
+#main .main .formx  .bg{text-align:center;line-height: 30px;font-size: 15px;position: absolute;top: 0;left: 0;display: block;width: 0px;height: 30px;background: #00CC00;}
+#main .main .formx .code{width: 100px;height: 25px;border: 2px solid #F2F2F2;float: left;}
+#main .main .formx .ma{display: inline-block;width:90px;height: 26px;border: 2px solid #1098EC;float: right;}
+#main .main .formx #demoForm input{display: block;}
+#main .main .formx .check{float: left;}
+#main .main .formx input.box{cursor: pointer;width: 242px;height: 30px;border: 2px solid #E5E5E5;}
+#main .main .formx input.check{width: 15px;height: 15px;}
+#main .main .formx a{color: green;}
+#username-error{height: 27px;line-height: 27px;}
+#password-error{height: 27px;line-height: 27px;}
+#confirm-password-error{height: 27px;line-height: 27px;}
+#main .main .mainR{float: right;}
+#main .main .mainR img{width:520px;display:block;margin: 40px 0px;border-left:2px solid #E5E5E5 ;padding: 0 10px;}
+

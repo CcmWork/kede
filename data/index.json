@@ -1,0 +1,19 @@
+{
+   "main":{
+            "img":["../img/index/0fa1.jpg","../img/index/0fa2g.jpg","../img/index/0fa3.jpg"]  
+          },
+   "main1":{
+   			"img":{
+   					"src":"../img/index/index15.jpg",
+   					"name":"博士伦蕾炫眸日抛10片装",
+   					"price":"￥68"
+   				  },
+   			"img1":{
+   					"src":"../img/index/1f_3.jpg",
+   					"name":"博士伦清日抛30片装",
+   					"price":"￥118"
+   				    }
+   		
+   			
+   		   }
+}
